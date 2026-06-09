@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Eleven Group Test POC
 
-## Getting Started
+## 🚀 Stack
+- **Next.js 15** (App Router)
+- **TypeScript**
+- **Tailwind CSS**
+- **Vercel** (Deployment)
 
-First, run the development server:
+## 📦 Repository
+GitHub: https://github.com/mgrisa-sketch/eleven-test-poc-1780979623
+
+## 🔗 Deploy to Vercel
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/mgrisa-sketch/eleven-test-poc-1780979623)
+
+### Manual Deployment Steps
+
+1. **Via Vercel Dashboard:**
+   - Visit: https://vercel.com/new
+   - Import: `https://github.com/mgrisa-sketch/eleven-test-poc-1780979623`
+   - Click "Deploy"
+
+2. **Via CLI (if authenticated):**
+   ```bash
+   cd /c/Users/Nico/temp/eleven-test-poc
+   vercel --prod
+   ```
+
+## 🧪 Local Development
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ✅ Features
+- Simple landing page with "Test Stack Eleven Group" title
+- Interactive button with state management
+- Responsive design with Tailwind CSS
+- Production-ready Next.js 15 configuration
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📝 Notes
+- Build tested and working ✅
+- TypeScript configured ✅
+- Tailwind CSS configured ✅
+- Git repository created and pushed ✅
